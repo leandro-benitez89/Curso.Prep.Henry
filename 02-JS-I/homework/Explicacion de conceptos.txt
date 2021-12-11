@@ -1,0 +1,6 @@
+Explicación de conceptos
+* Variables: Son como cajas donde guardamos información que luego podemos recuperar y utilizar.
+* Strings: son cadenas de texto, como una palabra o una frase, o incluso un número. Se escriben siempre entre comillas.
+* Funciones: Son bloques de código que se pueden invocar, para hacer algo con las variables que tenemos (calcularlas, cambiarlas, etc).
+* Declaraciones if: Le indican al intérprete qué se debe hacer si se cumple o no se cumple una condición.
+* Valores booleanos: Son variables que pueden tener únicamente dos Valores: verdadero o falso.
