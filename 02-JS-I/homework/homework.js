@@ -232,24 +232,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1) {
-  console.log('Dato incorrecto');
+  return 'Dato incorrecto';
   }
-  if (letra == "a") {
-    console.log('Es vocal');
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+    return 'Es vocal';
   }
-  if (letra == "e") {
-    console.log('Es vocal');
-  }
-  if (letra == "i") {
-    console.log('Es vocal');
-  }
-  if (letra == "o") {
-    console.log('Es vocal');
-  }
-  if (letra == "u") {
-    console.log('Es vocal');
-  }
-  console.log('Dato incorrecto');
+  return 'Dato incorrecto';
 }
 
 
